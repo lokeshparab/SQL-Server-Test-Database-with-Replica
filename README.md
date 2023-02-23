@@ -13,11 +13,11 @@ This is repository to create 2 databases and insert values in database using  Mi
 1. Download or clone this repository in your local machine
 2. Open SQL Server Management Console and make connect on **Connect to Server** as Database Engine.
 3. There are 2 ways to create 2 test database:-
-   1. using **salika.sql & salika_rep.sql** only:-
+   1. Using **salika.sql & salika_rep.sql** only:-
       * Press **Ctrl + O** to Open Files and open **salika.sql & salika_rep.sql** files given in repository
       * Execute anyone of the file by pressing **Execute** or **Press F5**
       * Sucessfully Created 2 Test Database
-   2. using **seperate query creating database and table**:- 
+   2. Using **seperate query creating database and table**:- 
       * Press **Ctrl + O** to Open Files and open all **except salika.sql & salika_rep.sql** files given in repository
       * First Execute **create-2-databse.sql** by pressing **Execute** or **Press F5**
       * Then next Execute **country_sakila.sql & country_sakila_rep.sql** by pressing **Execute** or **Press F5**
