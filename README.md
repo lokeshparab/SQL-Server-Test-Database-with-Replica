@@ -13,7 +13,9 @@ This is repository to create 2 databases and insert values in database using  Mi
 1. Download or clone this repository in your local machine
 2. Open SQL Server Management Console and make connect on **Connect to Server** as Database Engine.
 3. Press **Ctrl + O** and open all the files given in repository
-4. First you have to execute **create-2-databse.sql** 
+4. First you have to execute **create-2-databse.sql** by click Execute or Press F5
+5. After that you are free to execute remain file . Click Excute or Press F5 to all files
+6. Sucessfully Created 2 Database
 # About File
 | File                   | Decription                                                    |
 |------------------------| --------------------------------------------------------------|
