@@ -1,6 +1,8 @@
 use sakila
 go
 
+-- Create the city table
+
 CREATE TABLE city (
   city_id smallint IDENTITY(1,1) NOT NULL,
   city varchar(50) NOT NULL,
@@ -9,6 +11,8 @@ CREATE TABLE city (
   CONSTRAINT fk_city_country FOREIGN KEY (country_id) REFERENCES country (country_id) ON DELETE NO ACTION ON UPDATE CASCADE,
   INDEX idx_fk_country_id (country_id)
 );
+
+-- Insert value in city table
 
 INSERT INTO city (city, country_id)
 VALUES ('New York', 1),
