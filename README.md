@@ -18,19 +18,22 @@ This is repository to create 2 databases and insert values in database using  Mi
 6. Sucessfully Created 2 Test Database
 
 # About File
-| File                   | Decription                                                    |
-|------------------------| --------------------------------------------------------------|
-| create-2-databse.sql   | Create sakila and sakila_rep database in SQL Server           |
-| actor_sakila.sql       | Create actor table and insert values in sakila database       |
-| actor_sakila_rep.sql   | Create actor table and insert values in sakila_rep database   |
-| city_sakila.sql        | Create city table and insert values in sakila database        |
-| city_sakila_rep.sql    | Create city table and insert values in sakila_rep database    |
-| country_sakila.sql     | Create country table and insert values in sakila database     |
-| country_sakila_rep.sql | Create country table and insert values in sakila_rep database |
+| File                   | Decription                                                                                                        |
+|------------------------| ------------------------------------------------------------------------------------------------------------------|
+| create-2-databse.sql   | Create sakila and sakila_rep database in SQL Server                                                               |
+| actor_sakila.sql       | Create actor table and insert values in sakila database                                                           |
+| actor_sakila_rep.sql   | Create actor table and insert values in sakila_rep database                                                       |
+| city_sakila.sql        | Create city table and insert values in sakila database                                                            |
+| city_sakila_rep.sql    | Create city table and insert values in sakila_rep database                                                        |
+| country_sakila.sql     | Create country table and insert values in sakila database                                                         |
+| country_sakila_rep.sql | Create country table and insert values in sakila_rep database                                                     |
+| sakila.sql             | Create sakila database along with tables that are actor, city, country and added values into following tables     |
+| sakila_rep.sql         | Create sakila_rep database along with tables that are actor, city, country and added values into following tables |
 
 # File used for sakila v/s sakila_rep
 | sakila             | sakila_rep             |
 |--------------------|------------------------|
+| sakila.sql         | sakila_rep.sql         |
 | actor_sakila.sql   | actor_sakila_rep.sql   |
 | city_sakila.sql    | city_sakila_rep.sql    |
 | country_sakila.sql | country_sakila_rep.sql |
