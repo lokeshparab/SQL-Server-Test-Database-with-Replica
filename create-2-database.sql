@@ -2,4 +2,4 @@
 -- Create two database server
 
 create database sakila;
-create database sakile_rep;
+create database sakila_rep;

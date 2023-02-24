@@ -1,5 +1,3 @@
-create database sakila;
-
 use sakila
 go
 

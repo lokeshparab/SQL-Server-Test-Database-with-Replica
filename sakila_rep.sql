@@ -1,5 +1,3 @@
-create database sakile_rep;
-
 use sakila_rep
 go
 
