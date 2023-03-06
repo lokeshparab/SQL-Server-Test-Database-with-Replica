@@ -37,6 +37,11 @@ ORDER BY t.name;
 ```
 ## Database Size
 ```
+SELECT
+    name AS [Database],
+    size/128.0 AS [Size in MB]
+FROM sys.database_files
+ORDER BY name;
 ```
 ## DataTypes used in Tables and other Objects
 ```
