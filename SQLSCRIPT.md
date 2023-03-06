@@ -11,9 +11,19 @@
 ```
 4. Partitions
 ```
+SELECT OBJECT_NAME(object_id) AS table_name, index_id, partition_number, rows
+FROM sys.partitions
+ORDER BY table_name, index_id, partition_number;
+
 ```
 5. Tablespaces
 ```
+SELECT DISTINCT t.NAME AS TableName, i.name AS IndexName, ds.name AS FileGroupName
+FROM sys.indexes AS i
+INNER JOIN sys.filegroups AS ds ON i.data_space_id = ds.data_space_id
+INNER JOIN sys.all_objects AS t ON i.object_id = t.object_id
+WHERE i.type_desc <> 'HEAP'
+ORDER BY t.name;
 ```
 6. Database Size
 ```
