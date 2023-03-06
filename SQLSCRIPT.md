@@ -2,12 +2,23 @@
 
 1. List of All Users, Roles, Privileges
 ```
+SELECT name, type_desc
+FROM sys.database_principals
+WHERE type IN ('S', 'U', 'G')
+ORDER BY type_desc, name;
 ```
 2. List of All Schemas
 ```
+SELECT name
+FROM sys.schemas
+WHERE name NOT LIKE 'db_%'
+ORDER BY name;
 ```
 3. List of All Objects and their type
 ```
+SELECT name, type_desc
+FROM sys.objects
+ORDER BY type_desc, name;
 ```
 4. Partitions
 ```
